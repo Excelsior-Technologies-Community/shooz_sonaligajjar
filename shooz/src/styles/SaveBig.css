@@ -1,0 +1,53 @@
+.save-container {
+    margin-top: 200px;
+    display: flex;
+    gap: 20px;
+}
+
+.save-top {
+    text-align: left;
+    margin-left: 90px;
+}
+
+.save-top h5 {
+    font-family: 'manrope';
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+
+.save-top h1 {
+    font-family: 'manrope';
+    padding-bottom: 20px;
+    font-size: 45px;
+    max-width: 500px;
+}
+
+.save-top p {
+    font-family: 'manrope';
+    text-align: left;
+    padding-bottom: 20px;
+    max-width: 680px;
+    font-size: 16px;
+}
+
+.save-right img {
+    margin-top: -50px;
+}
+
+.discover-store {
+    padding: 30px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    align-items: center;
+    color: white;
+    font-family: 'manrope';
+    font-size: 20px;
+    background: linear-gradient(to right, rgb(116, 64, 161), rgb(68, 29, 148), rgb(97, 36, 148), rgb(130, 30, 148), rgb(93, 38, 96), rgb(165, 34, 102), rgb(177, 33, 83));
+}
+
+.discover-store button {
+    background: rgb(116, 64, 161);
+    padding: 15px 30px;
+}

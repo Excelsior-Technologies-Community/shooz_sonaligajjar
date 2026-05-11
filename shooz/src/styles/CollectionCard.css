@@ -1,0 +1,28 @@
+.collection-cards {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.collection-content h3 {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  position: relative;
+  background: white;
+}
+
+.collection-content {
+  /* width: 200px;
+  height: 200px; */
+  overflow: hidden;
+}
+
+.collection-content img {
+  height: 200px;
+  width: 200px;
+}
+
+.collection-content:hover img {
+  transform: scale(1.1);
+}

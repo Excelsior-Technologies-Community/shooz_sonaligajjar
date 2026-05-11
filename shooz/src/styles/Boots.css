@@ -1,0 +1,90 @@
+.boots-container {
+    margin-top: 80px;
+}
+
+.boots-top {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.boots-top h5 {
+    margin-bottom: 20px;
+    font-family: 'manrope';
+    color: gray;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.boots-top h1 {
+    margin-bottom: 20px;
+    font-family: 'manrope';
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+.boots-top p {
+    font-family: 'manrope';
+    color: grey;
+    max-width: 390px;
+    margin-left: 570px;
+}
+
+/* .boots-card {
+    position: relative;
+    overflow: hidden;
+} */
+
+
+.boots-card p {
+    font-family: 'manrope';
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    /* border: 1px solid white; */
+    background: white;
+    color: black;
+    position: relative;
+    padding: 10px;
+    width: 300px;
+    top: -20%;
+    margin-left: 20px;
+    transition-duration: 0.9s;
+}
+
+.boots-card p:hover {
+    background: brown;
+    color: white;
+}
+
+.boots-card span {
+    font-weight: 200;
+}
+
+.boots-overlay {
+    width: 340px;
+    height: 330px;
+    overflow: hidden;
+}
+
+.boots-overlay img {
+    overflow: hidden;
+    height: 330px;
+    width: 340px;
+    object-fit: cover;
+    cursor: pointer;
+    /* position: absolute; */
+    transition: transform 0.9s;
+    transform: scale(1);
+}
+
+.boots-overlay img:hover {
+    transform: scale(1.1);
+}
+
+.boots-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}

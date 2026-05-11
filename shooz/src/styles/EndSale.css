@@ -1,0 +1,61 @@
+.sale-header {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.sale-header h5 {
+    color: gray;
+    font-family: "manrope";
+    letter-spacing: 2px;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.sale-header h1 {
+    font-family: 'manrope';
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.sale-header p {
+    font-family: 'manrope';
+    color: gray;
+}
+
+.sale-grid {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.sale-product img {
+    height: 100px;
+    width: 100px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.sale-product {
+    display: flex;
+    gap: 10px;
+}
+
+.sale-content h3 {
+    font-family: 'manrope';
+    font-weight: 500;
+    margin-left: 10px;
+    transition: 0.9s;
+    cursor: pointer;
+}   
+
+.sale-content h3:hover {
+    color: brown;
+}
+
+.sale-content p {
+    text-align: left;
+    margin-left: 10px;
+}

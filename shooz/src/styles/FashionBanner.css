@@ -1,0 +1,58 @@
+.fashion-banner {
+    width: 100%;
+    background: #f5f5f5;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-content {
+    width: 500px;
+    line-height: 2;
+    background: white;
+    padding: 40px;
+    text-align: left;
+    height: 350px;
+    margin-left: -135vh;
+}
+
+.subtitle {
+    font-family: 'manrope';
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.banner-content h2 {
+    font-family: 'manrope';
+    font-weight: bold;
+    max-width: 300px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.desc {
+    color: #555;
+    font-family: 'manrope';
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+button {
+    padding: 15px 25px;
+    background: brown;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'manrope';
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.9s;
+}
+
+button:hover {
+    background: black;
+}

@@ -1,0 +1,35 @@
+/* .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 10px 300px;
+    gap: 40px;
+    border-radius: 5px;
+} 
+
+.grid-image img {
+    height: auto;
+    width: 300px;
+}
+
+.grid-content {
+    text-align: left;
+}
+
+.grid-content p {
+    font-family: 'manrope';
+    color: black;
+    margin: 5px;
+}
+
+.grid-content h2 {
+    font-family: 'manrope';
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.grid-content h5 {
+    font-family: 'manrope';
+    font-weight: 300;
+    color: grey;
+    font-size: 16px;
+} */

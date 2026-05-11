@@ -1,0 +1,170 @@
+.filter-sidebar {
+    width: 300px;
+    padding: 50px 20px;
+    margin-left: 30px;
+    /* border-right: 1px solid #e5e5e5; */
+    font-family: 'Manrope', sans-serif;
+}
+
+/* main title */
+.filter-sidebar h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    color: black;
+    text-align: left;
+    font-family: 'manrope';
+}
+
+/* each section */
+.filter-section {
+    margin-bottom: 35px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e5e5e5;
+    font-family: 'manrope';
+}
+
+/* section headings */
+.filter-section h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 25px;
+    text-align: left;
+    font-family: 'manrope';
+}
+
+/* category items */
+.filter-section p {
+    margin-bottom: 14px;
+    font-size: 16px;
+    color: #555;
+    cursor: pointer;
+    transition: 0.3s ease;
+    text-align: left;
+    font-family: 'manrope';
+}
+
+/* hover effect */
+.filter-section p:hover {
+    color: black;
+    /* transform: translateX(3px); */
+}
+
+/* active category */
+.active-category {
+    color: black !important;
+    font-weight: 500;
+}
+
+/* checkbox section */
+.filter-section label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    color: #555;
+    cursor: pointer;
+    font-family: 'manrope';
+}
+
+/* checkbox */
+.filter-section input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.price-slider {
+    margin-top: 20px;
+}
+
+.price-slider input[type="range"] {
+    width: 100%;
+    cursor: pointer;
+}
+
+.price-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.price-boxes span {
+    font-family: 'manrope';
+    font-size: 16px;
+}
+
+.price-box span {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px 30px;
+}
+
+.price-box p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'manrope';
+}
+
+
+/* dropdown heading */
+.filter-dropdown {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+
+.filter-dropdown span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.brand-options {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.brand-options span {
+    font-family: 'manrope';
+    font-size: 16px;
+}
+
+.brand-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    color: #555;
+    font-family: 'manrope';
+}
+
+.brand-label input {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.brand-label:hover {
+    color: black;
+}
+
+
+
+/* responsive */
+@media (max-width: 768px) {
+
+    .filter-sidebar {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #e5e5e5;
+        margin-bottom: 20px;
+    }
+
+    .filter-sidebar h2 {
+        font-size: 28px;
+    }
+}

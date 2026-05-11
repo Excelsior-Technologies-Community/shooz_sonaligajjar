@@ -1,0 +1,75 @@
+.lookbook {
+    margin-top: 80px;
+}
+
+.lookbook-title {
+    font-size: 14px;
+    font-family: 'manrope';
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: grey;
+}
+
+.lookbook h2 {
+    margin-top: 20px;
+    font-family: 'manrope';
+    font-size: 35px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.slider-container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    gap: 30px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    margin-left: 0px;
+    margin-right: -100px;
+}
+
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+.card h4,
+p {
+    text-align: center;
+    font-family: 'manrope';
+}
+
+.card img {
+    height: auto;
+    width: 300px;
+}
+
+.btnPrev {
+    padding: 16px 20px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+    left: 0px;
+    margin-top: 127px;
+}
+
+.btnNext {
+    padding: 16px 20px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+    right: 2%;
+    margin-top: 127px;
+}
+
+.subtitle {
+    text-align: center;
+}

@@ -1,0 +1,56 @@
+.sneaker-subtitle {
+    font-family: 'manrope';
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: gray;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sneakers h1 {
+    font-family: 'manrope';
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.sneakers-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    flex-direction: row;
+}
+
+.sneaker-overlay img {
+    height: 300px;
+    width: 320px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.overlay-sneakers {
+    text-align: left;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.overlay-sneakers h3 {
+    font-family: 'manrope';
+    font-weight: 500;
+}
+
+.overlay-sneakers p {
+    font-family: 'manrope';
+    font-weight: 200;
+    text-align: left;
+}
+.sneaker-label {
+    color: grey;
+    font-family: 'manrope';
+    font-weight: 300;
+    font-size: 16px;
+}

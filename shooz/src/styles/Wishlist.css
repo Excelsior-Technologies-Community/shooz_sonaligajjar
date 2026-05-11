@@ -1,0 +1,67 @@
+.wishlist-page h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'manrope';
+    font-size: 30px;
+}
+
+.wishlist-page h5 {
+    margin-left: 570px;
+    margin-top: 100px;
+    color: rgb(81, 65, 43);
+    background: #FFF3CD;
+    width: 360px;
+    padding: 10px;
+    font-family: 'manrope';
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.wishlist-products {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 100px;
+}
+
+.wishlist-card {
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.wishlist-card img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.wishlist-content button {
+    background: transparent;
+    color: grey;
+    font-family: 'manrope';
+    font-weight: 400;
+    text-decoration: underline;
+    text-align: left;
+    margin-left: -20px;
+}
+
+.wishlist-content button:hover {
+    background: transparent;
+    color: black;
+}
+
+.wishlist-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.wishlist-content h3 {
+    font-family: 'manrope';
+    font-size: 20px;
+}
+
+.wishlist-content p {
+    font-family: 'manrope';
+    font-weight: 300;
+}

@@ -1,0 +1,132 @@
+.athletic-image img {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.athletic-image {
+    position: relative;   
+}
+
+.athletic-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    background: rgba(0, 0, 0, 0.4);
+    margin-top: 20px;
+}
+
+.athletic-title {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: white;
+    font-family: 'manrope';
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.athletic-links {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 20px;
+    cursor: pointer;
+    /* position: relative;
+    text-decoration: none; */
+}
+
+.athletic-links a {
+    text-decoration: none;
+    color: black;
+}
+
+.active-link p {
+    border-bottom: 1px solid black;
+    font-weight: 600;
+}
+
+.athletic-links p {
+    position: relative;
+    text-decoration: none;
+}
+
+.athletic-links span {
+    color: grey;
+}
+
+.athletic-links p {
+    font-family: 'manrope';
+    color: black;
+    font-size: 16px;
+}
+
+.athletic-links p::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 1px;
+    background-color: black;
+    transform: 0.3s ease;
+}
+
+.athletic-links p:hover::after {
+    width: 100%;
+}
+
+.shoes-collection {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.shoes-category {
+    position: relative;
+}
+
+.shoes-overlay {
+    position: absolute;
+    top: -267px;
+    left: 0;
+    width: 260px;
+    height: 38vh;
+    background: rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.shoes-category img {
+    height: 38vh;
+    width: 260px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.shoes-category p {
+    color: white;
+    font-family: 'manrope';
+    position: absolute;
+    top: -500%;
+    z-index: 1;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.right {
+    position: relative;
+    top: -180vh;
+    padding: 0 100px;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+}

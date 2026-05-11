@@ -1,0 +1,91 @@
+.timeless-container {
+    background: #333333;
+    margin-top: 50px;
+    padding: 50px;
+    height: 150vh;
+}
+
+.timeless-top {
+    color: white;
+    text-align: center;
+}
+
+.timeless-top h5 {
+    font-family: 'manrope';
+    letter-spacing: 3px;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.timeless-top h1 {
+    padding-bottom: 30px;
+    font-family: 'manrope';
+    font-size: 50px;
+}
+
+.timeless-top p {
+    font-family: 'manrope';
+}
+
+.timeless-images {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+  margin-top: 50PX;
+}
+
+.top-card {
+  grid-column: span 2; /* 3 cards */
+}
+
+.bottom-card {
+  grid-column: span 3; /* 2 cards */
+}
+
+.timeless-grid {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.timeless-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transform: scale(1);
+  transition: transform 0.9s;
+}
+
+.timeless-grid img:hover {
+    transform: scale(1.1);
+}
+
+.timeless-content {
+  position: absolute;
+  bottom: 100px;
+  left: 30px;
+  color: white;
+}
+
+.timeless-content h5 {
+    font-family: 'manrope';
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+
+.timeless-content p {
+    font-family: 'manrope';
+    font-size: 28px;
+    max-width: 600px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.timeless-content span {
+    border-bottom: 1px solid white;
+    font-family: 'manrope';
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 14px;
+}

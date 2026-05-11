@@ -1,0 +1,12 @@
+.wishlist {
+    margin-left: -500px;
+}
+
+.wishlist p {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.wishlist p:hover {
+    color: brown;
+}
